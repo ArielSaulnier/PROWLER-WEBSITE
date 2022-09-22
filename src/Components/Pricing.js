@@ -1,14 +1,14 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { CheckIcon } from '@heroicons/react/24/outline'
 
-const hobbyFeatures = ['Pariatur quod similique', 'Sapiente libero doloribus', 'Vel ipsa esse repudiandae']
-const scaleFeatures = ['Pariatur quod similique', 'Sapiente libero doloribus', 'Vel ipsa esse repudiandae']
+const hobbyFeatures = ['Network analysis', 'Monitoring interface', 'Prowler Documentation']
+const scaleFeatures = ['Growth offer', '3H of free live support', 'Custom features *']
 const growthFeatures = [
-  'Quia rem est sed impedit magnam',
-  'Dolorem vero ratione voluptates',
-  'Qui sed ab doloribus voluptatem dolore',
-  'Laborum commodi molestiae id et fugiat',
-  'Nam ut ipsa nesciunt culpa modi dolor',
+  'Network analysis',
+  'Monitoring interface',
+  'Decurity testing',
+  'Helpdesk',
+  'Documentation',
 ]
 
 export default function Pricing() {
@@ -38,14 +38,14 @@ export default function Pricing() {
                     <div className="bg-white px-6 py-10">
                       <div>
                         <h3 className="text-center text-2xl font-medium text-gray-900" id="tier-hobby">
-                          Hobby
+                          Free
                         </h3>
                         <div className="mt-4 flex items-center justify-center">
                           <span className="flex items-start px-3 text-6xl tracking-tight text-gray-900">
                             <span className="mt-2 mr-2 text-4xl font-medium tracking-tight">$</span>
-                            <span className="font-bold">79</span>
+                            <span className="font-bold">0</span>
                           </span>
-                          <span className="text-xl font-medium text-gray-500">/month</span>
+                          <span className="text-xl font-medium text-gray-500"></span>
                         </div>
                       </div>
                     </div>
@@ -94,7 +94,7 @@ export default function Pricing() {
                         className="text-center text-3xl font-semibold tracking-tight text-gray-900 sm:-mx-6"
                         id="tier-growth"
                       >
-                        Growth
+                        Secure
                       </h3>
                       <div className="mt-4 flex items-center justify-center">
                         <span className="flex items-start px-3 text-6xl tracking-tight text-gray-900 sm:text-6xl">
@@ -143,7 +143,7 @@ export default function Pricing() {
                             <span className="mt-2 mr-2 text-4xl font-medium tracking-tight">$</span>
                             <span className="font-bold">349</span>
                           </span>
-                          <span className="text-xl font-medium text-gray-500">/month</span>
+                          <span className="text-xl font-medium text-gray-500">/month *</span>
                         </div>
                       </div>
                     </div>
